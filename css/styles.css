@@ -1,0 +1,193 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;
+}
+			
+body {
+	color: #666666;
+	background-color: #f9e8f8;
+	background-image: url("../images/body_background_image.jpg");
+	background-position: center;
+}
+
+header {
+	width: 940px;
+	height: 160px;
+	margin: 20px auto 20px auto;
+	position: relative;
+	background-image: url("../images/header_banner_image.jpg");
+}
+
+footer {
+	width: 940px;
+	height: 30px;
+	margin: 20px auto 20px auto;
+	background-color: #aeaca8;
+}
+
+section {
+	width: 940px;
+	margin: 0px auto 0px auto;
+	border: 2px solid #000000;
+	background-color: #aeaca8;
+}
+
+nav {
+	clear: both;
+	color: #ffffff;
+	background-color: #aeaca8;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+nav li a {
+	color: #ffffff;
+}
+
+nav li a:hover, nav li a.current {
+	color: #000000;
+}
+
+input
+{
+	font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding: 7px;
+    outline: 0;
+    border:0;
+    width:250px;
+    background: #EBE8DE;
+    border-radius:5px;
+	
+}
+
+.markCriteriaInputs {
+	margin-left: 50px;
+	width:70px;
+	font-size:14px;
+}
+
+.markCriteriaSelect {
+	margin-left: 50px;
+	width:110px;
+	font-size:14px;
+}
+
+label{
+	margin-left: 50px;
+	width:145px;
+	display:inline-block;
+	color: black;
+}
+
+p{
+	margin-left: 50px;
+	color: black;
+}
+
+.markCriteriaLabels {
+	
+	width:500px;
+	margin-left: 20px;
+}
+
+.markCriteriaOption {
+	margin-left: 50px;
+	width:18px;
+    height:18px;
+	color: black;
+}
+
+.markCriteriaCheck {
+	margin-left: 50px;
+	width:18px;
+    height:18px;
+	color: black;
+}
+
+.commentOptLabels{
+	margin-left: 10px;
+	width:800px;
+	display:inline-block;
+	color: black;
+}
+
+legend {
+	color: black;
+}
+
+.commentChkLabels{
+	margin-left: 10px;
+	width:800px;
+	display:inline-block;
+	color: black;
+}
+
+input[type=checkbox]
+{
+	font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding: 7px;
+    outline: 0;
+    border:0;
+    width:10px;
+    background: #EBE8DE;
+    border-radius:5px;
+	
+}
+
+.commentChkLabels{
+	margin-left: 0px;
+	width:500px;
+	display:inline-block;
+	color: black;
+}
+
+.otherComments{
+	margin-left: 50px;
+	width: 500px;
+	height: 50px;
+}
+
+
+h2,h3 {
+	margin-left: 50px;
+	color: black;
+}
+
+input[type=submit]
+{
+	margin-left: 360px;
+	width:auto;
+    padding: 5px 18px;
+    line-height:25px;
+    text-shadow:none;
+    cursor:pointer;
+    box-shadow: none;
+    background: #333333;
+    color: #fff;
+}
+
+input[type=button]
+{
+	margin-left: 360px;
+	width:auto;
+    padding: 5px 18px;
+    line-height:25px;
+    text-shadow:none;
+    cursor:pointer;
+    box-shadow: none;
+    background: #333333;
+    color: #fff;
+}

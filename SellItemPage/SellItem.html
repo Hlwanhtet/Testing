@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Flogger - Buy and sell your Item Online - Sell Item </title>
+    	<link href="../css/styles.css" type="text/css" rel = "stylesheet"/>
+		
+		<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+		
+			<header>
+				
+				<nav>
+					<ul>
+						<li><a href="../SellItemPage/SellItem.html">SELL</a></li>
+						<li><a href="../BuyItemPage/BuyItem.html">BUY</a></li>
+						<li><a href="../SearchItemPage/SearchItemDAO.php">SEARCH ITEM</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div id="divMessage"></div>
+				<form id="formSellItem" >
+					<strong id="linkLogout"><a href="">Log Out</a></strong>
+				
+					<h2> To sell, fill out the form below and click the Submit button </h2> <br> <br>
+					
+					<label> Item category: </label>
+					<input type="text" id = "txtItemCategory" name="itemCategory" required="required"> <br> <br>
+
+					<label> Item name: </label>
+					<input type="text" id = "txtItemName" name="itemName" required="required"> <br> <br>
+					
+					<label> Item description: </label>
+					<textarea id = "txtItemDescription" name="itemDescription" form="formSellItem"></textarea> <br> <br>
+
+					<label> Price: </label>
+					<input type="price" id = "txtPrice" name="price" required="required"> <br> <br>
+
+					<input type="submit" id = "btnAddItem" value="Add Item">
+
+					
+				</form>  
+			</section>
+			
+			<footer>
+				&copy; 2017 Flogger
+			</footer>
+			
+			<script src="./SellItem.js"></script>
+			
+	</body>
+</html>
